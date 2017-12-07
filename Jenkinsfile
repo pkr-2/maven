@@ -2,7 +2,7 @@ pipeline {
     agent any
 
    stages {
-        stage(‘Compile Stage’) {
+        stage(‘Compile Stage') {
             steps {
                 echo ‘Comple Stage starts...’
                 withMaven(maven : ‘maven_3_5_2’){
